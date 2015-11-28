@@ -1,0 +1,19 @@
+{
+  "name": "formly",
+  "description": "Form building for champions!",
+  "main": "gulpfile.js",
+  "license": "ISC",
+  "homepage": "https://github.com/tristankenney/formly",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.0"
+  }
+}

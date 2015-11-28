@@ -1,0 +1,27 @@
+{
+  "name": "formly",
+  "version": "1.0.0",
+  "description": "Form building for champions!",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "lazypipe": "^1.0.1",
+    "main-bower-files": "^2.9.0"
+  },
+  "devDependencies": {
+    "gulp-tsconfig": "^0.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tristankenney/formly.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tristankenney/formly/issues"
+  },
+  "homepage": "https://github.com/tristankenney/formly#readme"
+}

@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "**/*.d.ts",
+        "**/*.ts",
+        "**/*.tsx",
+        "!node_modules/**"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    },
+    "files": [
+        "typings/angularjs/angular.d.ts",
+        "typings/jquery/jquery.d.ts",
+        "typings/tsd.d.ts",
+        "app/app.module.ts",
+        "app/elements/elements.module.ts",
+        "app/formbuilder/formbuilder.module.ts"
+    ]
+}
